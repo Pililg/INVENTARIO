@@ -1,0 +1,52 @@
+
+body{
+    background-image: url(IMG/fotomenu.png);
+    background-size:cover;
+
+
+}
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(35, 24, 152);
+    font-size: 20px;
+    margin-top: 80px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display:block;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background: linear-gradient(150deg,#d7d7ed ,#0F40F5);
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+
+}
+.menu-vertical li:hover{
+    background: linear-gradient(150deg,#d7d7ed ,#0F40F5);
+    
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+
+}
+

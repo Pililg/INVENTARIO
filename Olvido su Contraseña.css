@@ -1,0 +1,97 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(IMG/invcs.png) no-repeat center center fixed; 
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    margin-left: 6%;
+}
+.container{
+    width: 400px;
+    padding: 100px;
+    background: transparent;
+    margin-left: 500px;
+    margin-top: -500px;
+    border-radius: 10px;
+    box-shadow: 5px 13px 20px #ffffff;
+    font-weight: 600;
+      
+}
+p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: -20%;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 20px 10px; 
+    color:#ffffff; 
+}
+input{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 16px;
+    text-align:left;
+    height: 25px;
+    border-radius: 10px solid;
+    background: #ffffff;
+    font-size: 16px;
+}
+
+button[type="submit"]{
+    background:linear-gradient(150deg,#181884 ,#0F40F5);
+    margin-left: 5%;
+    margin-top: 33%;
+    border-radius: 15px;
+    border: 5px solid;
+    padding: 7px;
+    background-image: -o-linear-gradient(150deg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00ddff;
+    font-weight: 700;
+    box-shadow: 8px 3px 0px #000000;
+    display: flex;
+
+}
+button[type="submit"]:hover{
+    background-image: linear-gradient(150deg,#9500ff, #09f, #00ddff);
+    color: #000000;
+    font-weight: 800;
+}
+a {
+color: #ffffff;
+text-decoration: none;
+font-size: larger;
+}
+a:hover{
+color: #000;
+font-weight: 800;
+
+}
+button{
+    display: flex;
+    background:linear-gradient(150deg,#181884 ,#0F40F5);
+    padding: 8px 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-style:inset;
+    margin-top: 5%;
+    margin-left: 36%;
+    
+}
+    
+button:hover{
+background-image: linear-gradient(150deg,#9500ff, #09f, #00ddff);
+color: #000000;
+font-weight: 800;
+}
